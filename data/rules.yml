@@ -422,7 +422,6 @@ rules:
       - active_loop: simple_clamp_form
       - slot_was_set:
           - requested_slot: true
-
   - rule: whenever User wants to know current positions, read them all for him
     steps:
       - intent: read_current_positions
